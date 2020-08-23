@@ -7,9 +7,8 @@ theme = "hugo-highlights"
 [params]
   # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
   # for more icons.
-  name = "Your Name"
-  description = "Your Description"
-  email = "your@mail.com"
+  name = "Häckerhöhle"
+  description = ""
   # If this param is set to true, every section gets an own background image (located at static/images)
   # to change the image you could use the param picture on every section.
   # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
