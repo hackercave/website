@@ -8,5 +8,8 @@
     {{ range .copyright.notice }}
       <li>{{ .text | markdownify }}</li>
     {{ end }}
+    {{ with .GitInfo }}
+      <li>{{ .AbbreviatedHash }}</li>
+    {{ end }}
   </ul>
 </footer>

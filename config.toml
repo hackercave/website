@@ -4,7 +4,9 @@ languageCode = "de-de"
 title = "Häckerhöhle"
 theme = "hugo-highlights"
 
+enableGitInfo = true
 enableRobotsTXT = true
+
 [params]
   # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
   # for more icons.
