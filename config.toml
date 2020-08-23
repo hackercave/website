@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://brathuhnverleih.bplaced.net/"
+baseurl = "https://www.häckerhöhle.org"
 languageCode = "de-de"
 title = "Häckerhöhle"
 theme = "hugo-highlights"
