@@ -119,4 +119,4 @@ theme = "hugo-highlights"
         text = "© 2020 Häckerhöhle"
 
       [[params.footer.copyright.notice]]
-        text = "HUGO Template: [Highlights](//https://github.com/schmanat/hugo-highlights-theme)"
+        text = "HUGO Template: [Highlights](https://github.com/schmanat/hugo-highlights-theme)"
