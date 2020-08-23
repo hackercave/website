@@ -1,0 +1,28 @@
+{{ print "<!-- " .block.id " -->" | safeHTML }}
+<section id="{{.block.id}}" class="main special">
+  <div class="container">
+    {{ if eq .params.backgroundpersection true }}
+      <span class="image fit primary"><img src="images/{{ with .block.picture }}{{ . }}{{ end }}" alt="" /></span>
+    {{ end }}
+    <div class="content">
+      <header class="major">
+        <h2>{{ with .block.title }}{{ . | markdownify }}{{ end }}</h2>
+      </header>
+      <p>{{ with .block.description }}{{ . | markdownify }}{{ end }}</p>
+
+      {{ with .block.mail }}<a href="mailto:{{ . }}" class="contactmail icon alt fas fa-envelope"></a>{{ end }}
+      &nbsp;
+      {{ with .block.maildisplay }}<span class="label"><code>{{ . }}</code></span>{{ end }}
+
+      <p>{{ with .block.warning }}{{ . | markdownify }}{{ end }}</p>
+
+      {{ with .block.abuse }}<a href="mailto:{{ . }}" class="contactmail icon alt fas fa-envelope"></a>{{ end }}
+      &nbsp;
+      {{ with .block.abusedisplay }}<span class="label"><code>{{ . }}</code></span>{{ end }}
+
+      <p>{{ with .block.abuseinfo }}{{ . | markdownify }}{{ end }}</p>
+
+      <p>Kein kommerzieller Internetauftritt und demnach gemäß <a href="https://dejure.org/gesetze/TMG/5.html" target="_blank" rel="noopener">§5 TMG</a> nicht impressumspflichtig.</p>
+
+  </div>
+</section>

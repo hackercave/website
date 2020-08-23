@@ -1,0 +1,126 @@
+# Site settings
+baseurl = "http://brathuhnverleih.bplaced.net/"
+languageCode = "de-de"
+title = "Häckerhöhle"
+theme = "hugo-highlights"
+
+[params]
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+  name = "Your Name"
+  description = "Your Description"
+  email = "your@mail.com"
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = true
+
+  # Cookie consent config
+  [params.cookieconsent]
+  # text strings used for Cookie consent banner
+  enable = true
+  [params.cookieconsent.content]
+    message = ""
+    dismiss = ""
+    link = ""
+
+  # hero Section
+  [params.hero]
+    type = "hero"
+    title = "Häckerhöhle"
+    description = "eine kleine digitale Community"
+    buttontext = "Weiter"
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "text"
+    title = "Wer wir sind"
+    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # skill section
+  [[params.block]]
+    id = "skills"
+    type = "list"
+    title = "Was wir machen"
+    description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+    [[params.block.item]]
+      icontype = "fab"
+      icon = "fa-rocketchat"
+      title = "RocketChat"
+      link = "https://chat.xn--hckerhhle-v2a7r.org"
+
+      [[params.block.item]]
+      icontype = "fas"
+      icon = "fa-ethernet"
+      title = "VPN"
+      link = "https://vpn.xn--hckerhhle-v2a7r.org"
+
+      [[params.block.item]]
+      icontype = "fab"
+      icon = "fa-gitlab"
+      title = "GitLab (soon™)"
+      link = "https://git.xn--hckerhhle-v2a7r.org"
+
+    [[params.block.item]]
+      icontype = "fas"
+      icon = "fa-ellipsis-h"
+      title = "bald noch mehr"
+      link = ""
+
+  # infos section
+  [[params.block]]
+    id = "infos"
+    type = "text"
+    title = "One more thing"
+    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+
+  # contact section
+  [[params.block]]
+    id = "contact"
+    type = "contact"
+    title = "Kontakt"
+    description = "Bei Fragen können Sie gerne zu uns Kontakt aufnehmen, gerne per RocketChat oder klassisch per Mail."
+    mail = "web@xn--hckerhhle-v2a7r.org"
+    maildisplay = "web@häckerhöhle.org"
+    warning = "Diese E-Mail ist ausschließlich für die Kontaktaufnahme gedacht. **Eine Verwendung zu Werbezwecken oder für Newsletter wird hiermit ausdrücklich untersagt**."
+    abuse = "abuse@xn--hckerhhle-v2a7r.org"
+    abusedisplay = "abuse@häckerhöhle.org"
+    abuseinfo = " Sollten Sie einen Abuse Fall melden wollen, verwenden Sie bitte diese Adresse, es setzt sich dann jemand mit Ihnen in Verbindung."
+    # the picture is stored at static/images/
+    picture = "pic04.jpg"
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+    #  [[params.footer.social]]
+    #    title = "Email"
+    #    icon = "fas fa-envelope"
+    #    link = "info@xn--hckerhhle-v2a7r.org"
+
+    # copyright
+    # [params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© 2020 Häckerhöhle"
+
+      [[params.footer.copyright.notice]]
+        text = "HUGO Template: [Highlights](//https://github.com/schmanat/hugo-highlights-theme)"
+
+      [[params.footer.copyright.notice]]
+        text = "Demo Images: [Unsplash](//unsplash.com/)"
