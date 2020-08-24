@@ -5,3 +5,5 @@ yarn-error.log
 .idea/**/*
 .DS_Store
 public/
+isableFastRender/
+disableFastRender/
