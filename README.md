@@ -1,5 +1,7 @@
 # website
 
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hackercave/website/Publish/master?style=flat-square)  ![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.xn--hckerhhle-v2a7r.org%2F)
+
 This project is based on [Hugo Highlights](https://github.com/schmanat/hugo-highlights-theme) which in turn is based on the HTML5Up template.
 
 The template was fundamentally revised, the dynamics were extended and new colors were introduced. Also an extension for cookie information has been added to be in line with EU legislation. On the other hand, the contact form and Google Analytics were removed to be more data efficient.
