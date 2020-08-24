@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://häckerhöhle.org/"
+baseurl = "https://xn--hckerhhle-v2a7r.org/"
 languageCode = "de-de"
 title = "Häckerhöhle"
 theme = "hugo-highlights"
@@ -55,19 +55,19 @@ enableRobotsTXT = true
       icontype = "fab"
       icon = "fa-rocketchat"
       title = "RocketChat"
-      link = "https://chat.xn--hckerhhle-v2a7r.org"
+      link = "https://chat.xn--hckerhhle-v2a7r.org/"
 
       [[params.block.item]]
       icontype = "fas"
       icon = "fa-ethernet"
       title = "VPN"
-      link = "https://vpn.xn--hckerhhle-v2a7r.org"
+      link = "https://vpn.xn--hckerhhle-v2a7r.org/"
 
       [[params.block.item]]
       icontype = "fab"
       icon = "fa-gitlab"
       title = "GitLab (soon™)"
-      link = "https://git.xn--hckerhhle-v2a7r.org"
+      link = "https://git.xn--hckerhhle-v2a7r.org/"
 
     [[params.block.item]]
       icontype = "fas"
