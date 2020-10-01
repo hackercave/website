@@ -29,8 +29,8 @@ jobs:
     - name: Deploy
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        git-ftp-args: --insecure --all
-        ftp-server:  ftps://xn--hckerhhle-v2a7r.org/:21
+        ftp-server:  ftps://xn--hckerhhle-v2a7r.org
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
+        git-ftp-args: --insecure --all
         local-dir: ./public/
