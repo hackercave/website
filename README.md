@@ -2,7 +2,7 @@
 
 The name was cool until we started working with it. We quickly realized that many applications don't work well with these types of domains.We have now worked four months with various workarounds and Co. But we don't want to push this further, as workarounds are simply not suitable for a production environment.
 
-The new domain is [retarded.systems] where the project and services will continue to run. Code and other things will remain accessible, but we will move to our own gitlab to have more control and to be more independent.
+The new domain is [retarded.systems]() where the project and services will continue to run. Code and other things will remain accessible, but we will move to our own gitlab to have more control and to be more independent.
 
 # website
 
